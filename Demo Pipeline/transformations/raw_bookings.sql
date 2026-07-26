@@ -1,7 +1,7 @@
 -- ============================================================
 -- RAW: read all the column from the CSV.
 -- ============================================================
-CREATE OR REFRESH MATERIALIZED VIEW raw_bookings
+CREATE OR REFRESH MATERIALIZED VIEW workspace.`00_raw`.raw_bookings
 AS
 SELECT
 *
