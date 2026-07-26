@@ -22,4 +22,4 @@ SELECT
   created_at,
   updated_at,
   current_timestamp() AS ingested_at
-FROM raw_bookings;
+FROM workspace.`00_raw`.raw_bookings;
